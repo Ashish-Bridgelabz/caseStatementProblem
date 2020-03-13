@@ -1,30 +1,37 @@
 #!/bin/bash -x
 read -p "Enter the number" number
-#WE ARE USING CASE STATEMENT
-case $number in 
+case $number in
 	0)
-	echo "Sunday"
+	echo "Zero"
 	;;
 	1)
-	echo "Monday"
+	echo "One"
 	;;
 	2)
-	echo "Tuesday"
+	echo "Two"
 	;;
 	3)
-	echo "Wednesday"
+	echo "Three"
 	;;
 	4)
-	echo "Thursday"
+	echo "Four"
 	;;
 	5)
-	echo "Friday"
+	echo "Five"
 	;;
 	6)
-	echo "Saturday"
+	echo "Six"
+	;;
+	7)
+	echo "Seven"
+	;;
+	8)
+	echo "Eight"
+	;;
+	9)
+	echo "Nine"
 	;;
 	*)
 	echo "Invalid number"
 	;;
 esac
-
